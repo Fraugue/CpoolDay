@@ -8,7 +8,7 @@ void my_print_n_ascii(void){
     printf("how many: \n"); 
     scanf("%d", &Nbr);
 
-    for(int i = 41; i < 126 ; i++)
+    for(int i = 41+)
     {
         print_char(i);
     }
