@@ -1,12 +1,9 @@
-int main(int argc, char const *argv[])
+int print_char(char);
+
+void my_print_ascii(void)
 {
-    
-int my_print_ascii(void);
-    my_print_ascii();
-
-    void print_char(char c);{
-       int write(int);
-       write(5);
-
-    return 0;
-    }}
+    for(int i = 32; i < 127 ; i++)
+    {
+        print_char(i);
+    }
+}
