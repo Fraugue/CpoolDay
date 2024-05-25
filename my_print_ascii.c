@@ -1,9 +1,15 @@
-int print_char(char);
+
+int print_char (char);
 
 void my_print_ascii(void)
 {
-    for(int i = 33; i <= 126 ; ++i)
+    int ascii = 33;
+    while (ascii <= 126)
     {
-        print_char(i);
+        print_char(ascii);
+        
+        ascii += 1 ;
+        
     }
-}
+    
+};
